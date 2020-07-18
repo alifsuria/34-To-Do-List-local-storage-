@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+  background-color: #6495ED;
+}
+
+.card-style{
+  background-color: darkblue;
+  color: white;
+}
+
+.task-item{
+  display: flex;
+  justify-content: center;
+}
+
+.task-item > span{
+  width: 75%;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.task-item > button {
+padding: 0px 3px;
+font-size: 0.8rem;
+}
